@@ -10,7 +10,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score
 app = Flask(__name__)
 
 # Load and preprocess your CSV data
-data = pd.read_csv(r"C:\Users\visha\Documents\Drug prescription Dataset.csv")
+data = pd.read_csv(r"Drug prescription Dataset.csv")
 
 # Encode Categorical Variables
 def encode_categorical(data):
