@@ -1,0 +1,105 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://rishihood.edu.in/wp-content/uploads/2021/11/16-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #5b5b5b;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.356);
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.256);
+    color: #333;
+}
+
+h2 {
+    font-size: 2em;
+    color: #d80000;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.491);
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.507);
+    color: #d82424;
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 75px;
+    background-color: rgba(255, 255, 255, 0.256);
+    border: 1px solid rgba(255, 255, 255, 0.059);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.363);
+    max-width: 300px;
+    margin: 50px auto;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    color: #292929;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #efefef00;
+    background-color: rgba(255, 255, 255, 0.648);
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.135);
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    color: #333;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #efefef00;
+    background-color: rgba(255, 255, 255, 0.648);
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.135);
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    color: #333;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.075);
+    cursor: pointer;
+}
+
+select:focus {
+    outline: rgba(255, 255, 255, 0.256);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.075);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #04810494;
+    color: #ffffff;
+    border: #04810494;
+    border-radius: 25px;
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #206823c4;
+}
